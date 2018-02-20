@@ -16,13 +16,25 @@ public class Part1_1 {
      */
     public static void main(String[] args) {
         
-        int t = 2;
-        int z = 4;
-        int w = t + z;
+        int t = 12 ;
+        double  w = 13.2;
+        
+        
+        // tablice
+        
+        int[] tab;
+        
+        // inicjalizowanie tablicy
+        tab = new int[10];
         
         
         
-        System.out.println(w);  //komentarz
+            //rzutowanie 
+            // rzutowanie tak jak w C++ (typ)zmienna
+        int i = (int)w;
+        
+        
+        System.out.println(i);  //komentarz
     }
     
 }
