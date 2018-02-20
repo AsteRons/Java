@@ -1,21 +1,39 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package projekt_obiektowy;
 
-/**
- *
- * @author Maciek
- */
+
+
 public class Projekt_Obiektowy {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+      
+        /*
+        Monitor p = new Monitor();
+             
+       p.wypisz("Arek", "Włodarczyk");
+      int wynik =  p.dodaj(10,30);
+       System.out.println(wynik);
+       
+       */
+       
+       Matematyka test = new Matematyka();
+       double wynik = test.dodaj(10,20);
+       System.out.println(wynik);
+       
+       
+       
+       double wynik1 = Matematyka.dodaj(14, 11);    //nie musze robic instancji klasy dzieki static
+       Klient a = new Klient("Jan");
+       Klient b = new Klient("Anna");
+       
     }
-    
+  
 }
+//STATIC - nie moze operowac na zmiennych lokalnych ! 
+//(nie moge sie do czegos co nie istnieje )
+
+
+
+
+
+
