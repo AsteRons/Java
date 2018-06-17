@@ -8,13 +8,14 @@ public class Klasyanonimowe {
 
    
     public static void main(String[] args) {
-      ZachowaniePoWcisnieciu z = new ZachowaniePoWcisnieciu() {
-
-          public void akcja() // klasa anonimowa
-          {
-             System.out.println("Klasa Anonimowa");
-          }
-      };
+      ZachowaniePoWcisnieciu z;
+        z = new ZachowaniePoWcisnieciu() {
+            
+            public void akcja() // klasa anonimowa
+            {
+                System.out.println("Klasa Anonimowa");
+            }
+        };
        
       Przycisk p = new Przycisk();
       

@@ -6,7 +6,9 @@ public class Wyjatki {
 
 
     public static void main(String[] args) {
-       int a= 10;
+       int a = 10;
+       
+       
        try
        {
          if( a == 10)
@@ -55,13 +57,6 @@ class NaszWyjatek extends Exception
   
     
 }
-
-
-
-
-
-
-
 
 
 
