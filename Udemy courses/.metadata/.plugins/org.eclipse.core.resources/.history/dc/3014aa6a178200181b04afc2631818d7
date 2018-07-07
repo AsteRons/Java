@@ -1,0 +1,66 @@
+package ukladGraficzny;
+
+
+
+import javax.swing.*;
+import java.awt.*;
+
+
+public class Main extends JFrame
+{
+	
+	public Main()
+	{
+		super("Uk³ad graficzny (Layout)");			// Tytu³
+		this.setBounds(300, 320, 300, 200);			// Ustawiamy granice
+	
+		initComponents();		// wywo³ywanie metody inicjalicacji
+		this.pack();			//pakuje elementy do uk³adu ( przyciski(
+	}
+	
+	
+	public void initComponents()
+	{
+		//Tworzenie przycisku i nadawanie mu nazwy
+		
+		centrum = new JButton("Start");		
+		gora = new JButton("Gora");
+		dol = new JButton("Dol");
+		lewa = new JButton("Lewa");
+		prawa = new JButton("Prawa");
+
+		
+		//Tworzenie konteneru na przycisk
+		
+		Container kontener = this.getContentPane();
+		
+		
+		//Wk³¹danie przyciusku do kontenera i ustalanie pozycji
+		
+		kontener.add(centrum, BorderLayout.CENTER);
+		kontener.add(gora, BorderLayout.PAGE_START);
+		kontener.add(dol, BorderLayout.PAGE_END);
+		kontener.add(lewa, BorderLayout.LINE_START);
+		kontener.add(prawa, BorderLayout.LINE_END);
+		
+	}
+	
+	// deklaracja przycisków
+	
+	JButton centrum;
+	JButton gora;
+	JButton dol;
+	JButton lewa;
+	JButton prawa;
+	
+	
+	
+	public static void main(String[] args) {
+
+		
+		//tworzenie nowej klasy i wizualizacja
+		new Main().setVisible(true);
+		
+	}
+
+}

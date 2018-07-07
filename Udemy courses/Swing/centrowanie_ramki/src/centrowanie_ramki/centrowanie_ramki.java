@@ -1,0 +1,39 @@
+package centrowanie_ramki;
+
+
+import javax.swing.*;
+import java.awt.*;
+
+
+public class centrowanie_ramki extends JFrame
+{
+
+	public centrowanie_ramki()
+	{
+		
+		// Œrdokuje ramkê na œrodku nie wa¿ne od jej wielkoœci
+		
+		int szerokoœæ = Toolkit.getDefaultToolkit().getScreenSize().width; //pobieranie szerokosci ekranu
+		int wysokoœæ = Toolkit.getDefaultToolkit().getScreenSize().height; //pobieranie wysokoœci ekranu
+		
+		this.setSize(szerokoœæ/2, wysokoœæ/2);	//ustawiamy rozmiar
+		
+		int szerRamki = this.getSize().width;
+		int wysRamki = this.getSize().height;
+		
+		
+		this.setLocation((szerokoœæ - szerRamki)/2, (wysokoœæ - wysRamki)/2);	// ustawiamy lokacje, œrodek
+		
+		this.setDefaultCloseOperation(3);
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+
+		new centrowanie_ramki().setVisible(true);
+
+	}
+
+}

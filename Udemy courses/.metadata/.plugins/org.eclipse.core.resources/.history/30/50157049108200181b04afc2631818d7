@@ -1,0 +1,44 @@
+package ukladGraficzny;
+
+
+
+import javax.swing.*;
+import java.awt.*;
+
+
+public class Main extends JFrame
+{
+	
+	public Main()
+	{
+		super("Uk³ad graficzny (Layout)");			// Tytu³
+		this.setBounds(300, 320, 300, 200);			// Ustawiamy granice
+	
+		initComponents();
+		
+	}
+	
+	
+	public void initComponents()
+	{
+		
+		przycisk1 = new JButton("Start");
+		Container kontener = this.getContentPane();
+		
+		kontener.add(przycisk1);
+		
+		
+	}
+	
+	JButton przycisk1;
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		new Main().setVisible(true);
+		
+	}
+
+}

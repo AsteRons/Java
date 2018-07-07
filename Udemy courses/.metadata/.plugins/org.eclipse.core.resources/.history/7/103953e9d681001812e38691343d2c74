@@ -1,0 +1,28 @@
+package ramka_good;
+
+
+import javax.swing.*;
+import java.awt.*;
+
+
+
+public class ramka {
+	
+	
+	
+	
+	public ramka()	//konstruktor
+	{
+		
+		this.
+		
+	}
+
+	public static void main(String[] args) {
+
+				
+		new ramka();
+		
+	}
+
+}

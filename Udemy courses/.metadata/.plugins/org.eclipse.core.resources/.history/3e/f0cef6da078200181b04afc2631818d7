@@ -1,0 +1,10 @@
+package centrowanie_ramki;
+
+public class centrowanie_ramki {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
