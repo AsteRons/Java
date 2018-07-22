@@ -20,30 +20,74 @@ public class Main extends JFrame
 		panel2.add(etykieta);
 		
 		
-		//Prze³¹cznik RadioButton
-		JRadioButton malyprzelacznik = new JRadioButton("Ma³y", false);		//prze³¹cznik o nazwie maly i odznaczony 
-		JRadioButton sredniprzelacznik = new JRadioButton("Sredni", false);		//prze³¹cznik o nazwie maly i odznaczony 
-											//dodanie prze³¹cznika do panelu
+		zbudujPrzelacznikRozmiar("Maly",15);
+		zbudujPrzelacznikRozmiar("Sredni",25);
+		zbudujPrzelacznikRozmiar("Duzy",35);
+		
+		zbudujPrzelacznikKolor("Zielony", Color.GREEN);
+		zbudujPrzelacznikKolor("Czerwony", Color.RED);		
+		zbudujPrzelacznikKolor("Niebieski", Color.BLUE);	
 		
 		
-		groupSize.add(malyprzelacznik);
-		groupSize.add(sredniprzelacznik);
-		
-			panel.add(malyprzelacznik);	
-			panel.add(sredniprzelacznik);	
 		
 		this.getContentPane().add(panel, BorderLayout.NORTH);			//dodanie panelu o nazwie 
-		this.getContentPane().add(panel2, BorderLayout.CENTER);
-		
+		this.getContentPane().add(panel2, BorderLayout.SOUTH);
+		this.getContentPane().add(panel3, BorderLayout.CENTER);
 		this.setDefaultCloseOperation(3);
 	}
 	
 	
+	
+	
+	
+	
+	
+	public void zbudujPrzelacznikRozmiar(String nazwa,final int rozmiar)
+	{
+		JRadioButton przelacznik = new JRadioButton(nazwa);
+		
+		przelacznik.addActionListener(new ActionListener(){				//implementacja nas³uchiwacza
+			
+			public void actionPerformed(ActionEvent e)		
+			{
+				etykieta.setFont(new Font("Monospaced", Font.BOLD, rozmiar));	//Ustawianie czcionki 
+			}
+			
+			
+			
+		});
+		groupSize.add(przelacznik);
+		panel.add(przelacznik);
+		
+	}
+	
+	
+	public void zbudujPrzelacznikKolor(String nazwa,final Color kolor)
+	{
+		JRadioButton przelacznik = new JRadioButton(nazwa);
+		
+		przelacznik.addActionListener(new ActionListener(){				//implementacja nas³uchiwacza
+			
+			public void actionPerformed(ActionEvent e)		
+			{
+				etykieta.setForeground(kolor);
+			}
+			
+			
+			
+		});
+		groupColor.add(przelacznik);
+		panel3.add(przelacznik);
+		
+	}
+	
 	JPanel panel = new JPanel();
 	JPanel panel2 = new JPanel();
+	JPanel panel3 = new JPanel();
 	JLabel etykieta = new JLabel("Coœ");
 	
-	ButtonGroup groupSize = new ButtonGroup();
+	ButtonGroup groupSize = new ButtonGroup();		//implementacja grupy  groupSize
+	ButtonGroup groupColor = new ButtonGroup();		//implementacja grupy  groupSize
 	
 	public static void main(String[] args)
 	{
