@@ -7,16 +7,7 @@ public class Part_3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-/*
-	int t=1;
-	int a=2;
-	
-	//Instrukcja warunkowe
-	if (a < t) System.out.println("Prawda");
-	
-	else System.out.println("Fa³sz");
-	*/
-		
+
 	// Wczytanie danych
 	Scanner in = new Scanner(System.in);
 	

@@ -18,3 +18,5 @@ do instrukcja while (warunek)	-	pêtla musi byæ wykonana conajmniej jeden raz
    
    
    for	-	 podobnie jak w C++  
+
+Programm wykorzystuj¹cy pêtle while
