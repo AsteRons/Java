@@ -1,2 +1,7 @@
 # Java
-Learning Java programming
+
+Learning Java with the use of:
+
+- Spring
+- GIT
+- Java EE
