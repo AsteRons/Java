@@ -29,4 +29,8 @@ stctic - pole wspó³ne dla obiektów danej klasy
   
   Metoda main:
   
+  - nie dzia³a, na ¿adnym obiekcie
+  - jej zadaniem jest tworzenie i uruchamianie obiektów
+  - ka¿da klasa mo¿e zawieraæ metodê main;
+  - pomocna przy testach jednostkowych
   
