@@ -1,4 +1,0 @@
-Operatory:
-
-Operator artymetyczny;
-
