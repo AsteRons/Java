@@ -39,3 +39,7 @@ Rzutowanie:
 
 Klasy abstrakcyjne:
 
+- podstw do tworzenia innych klas
+- klasa abstrakcyjna
+- metody abstrakcyjne pełnią rolę symbolu zastępczego metody, które są implementowane w podklasie
+- Obiekt Person tworzona ze studenta
