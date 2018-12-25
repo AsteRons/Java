@@ -30,3 +30,4 @@ Employee e = staff.get(i); - pobiera wartość i-tego elementu
 	staff.set(i, harry);
 	Do zapełniania add, do ustawiania set
 	
+- remove - metoda do usuwania i przesuwania w dół wszystkich elementów
