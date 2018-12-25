@@ -18,6 +18,8 @@ public class Part_3 {
 		for(Person e : people)
 			System.out.println(e.getName() + "," + e.getDescription());
 
+		
+		
 	}
 
 }
