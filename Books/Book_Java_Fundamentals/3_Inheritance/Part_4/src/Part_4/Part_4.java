@@ -8,7 +8,7 @@ public class Part_4 {
 		
 
 		System.out.println(Objects.hashCode("OK"));
-		
+
 	}
 
 }
