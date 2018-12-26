@@ -13,6 +13,9 @@ public class Part_6 {
 	
 	staff.size(); // sprawdza wielkosæ 
 	staff.trimToSize();
+	
+	ArrayList<Integer> list = new ArrayList<>();
 	}
 
+	
 }
