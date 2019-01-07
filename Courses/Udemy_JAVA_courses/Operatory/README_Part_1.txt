@@ -1,3 +1,0 @@
-Operatory:
-
-- operatory artymetyczne
