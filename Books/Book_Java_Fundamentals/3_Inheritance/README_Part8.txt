@@ -13,4 +13,23 @@ getName() - zwraca nazwe klasy
 newInstance() - tworzy egzaemplarze klasy
 
 
+
+Klasy:
+Field
+Method
+Constructor
+
+
 	Podstawy przechywytywania wyjatków:
+
+	- niekontrolowane
+	- kontrolowane
+	
+	try{
+	Tu moze wystąpić wyjatek
+	
+	}
+	catch(Exception e)
+	{
+	Obsługa wyjątku
+	}
