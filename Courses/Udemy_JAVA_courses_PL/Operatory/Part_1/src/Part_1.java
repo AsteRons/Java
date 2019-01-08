@@ -8,6 +8,8 @@ public class Part_1 {
 	 a += 2; 
 		
 	 System.out.println(a);
+
+	 
 	}
 
 }
