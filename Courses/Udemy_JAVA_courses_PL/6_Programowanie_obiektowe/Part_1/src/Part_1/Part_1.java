@@ -8,3 +8,27 @@ public class Part_1 {
 	}
 
 }
+
+
+
+class Monitor
+{
+	//pola
+	
+	int szerokosc;
+	int wysokosc;
+	
+	//metody
+	void wlacz()
+	{
+		
+	}
+	
+	void wylacz()
+	{
+		
+	}
+	
+	
+	
+}
