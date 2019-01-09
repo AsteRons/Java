@@ -10,3 +10,5 @@ Tablice jednowymiarowe:
 	
 Tablice wielowymiarowe:
 
+- tworzenie tablicy  [kolumny][wiersze]
+- zmiana wartości w tablicy
