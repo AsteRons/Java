@@ -1,1 +1,2 @@
-﻿dostepu z innych klas
+﻿REFERENCJA VS ZMIENNA
+
