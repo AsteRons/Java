@@ -35,8 +35,10 @@ public class Part_9 {
 			System.out.print("\n{\n");
 			printConstructors(cl);
 			System.out.println();
-			
-			
+			printMethods(cl);
+			System.out.println();
+			printFields(cl);
+			System.out.println("}");
 		}catch(ClassNotFoundException e)
 		{
 			e.printStackTrace();
