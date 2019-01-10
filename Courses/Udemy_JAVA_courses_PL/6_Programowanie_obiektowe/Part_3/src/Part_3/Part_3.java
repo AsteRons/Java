@@ -6,7 +6,7 @@ public class Part_3 {
 
 
 		KontoBankowe oszczednosciowe = new KontoBankowe();
-		if(oszczednosciowe.wyplac(i))
+		if(oszczednosciowe.wyplac(45))
 		{
 			System.out.println("wyp³acono");
 			

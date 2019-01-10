@@ -1,0 +1,1 @@
+﻿dostepu z innych klas
