@@ -9,8 +9,13 @@ public class Part_4 {
 		int a = 20;
 		
 		Test x = new Test();	//x nie znajduje sie w zadna wartosc tylko adres
-		x.zmienWartosc(a);
+		 x.zmienWartosc(a);
 		
+		 Foo foo = new Foo();
+		 x.zmienZawartosc(foo);
+		 
+		 
+		System.out.println(foo.y);
 	}
 
 }
@@ -24,4 +29,14 @@ class Test
 	{
 		zm = zm + 2;	// kopia która przestaje istnieæ
 	}
+
+	void zmienZawartosc(Foo zm)	
+	{
+		zm.y= zm.y + 40;	// kopia która przesy³a adres
+	}
+	
+}
+class Foo
+{
+	int y = 20;
 }
