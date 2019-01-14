@@ -1,1 +1,2 @@
-﻿
+﻿PORÓWNYWANIE STRINGÓW:
+
