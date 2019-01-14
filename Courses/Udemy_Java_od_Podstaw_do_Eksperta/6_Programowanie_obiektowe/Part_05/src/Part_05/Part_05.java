@@ -13,5 +13,6 @@ public class Part_05 {
 		System.out.print("s¹ równe");	
 		}
 	}
+	
 
 }
