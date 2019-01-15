@@ -28,6 +28,12 @@ public class Szkielet extends Potwor
 		System.out.println("Nie domyœlny konstruktor z klasy Szkielet");
 		
 	}
+	
+	
+	public void atakuj()
+	{
 
+		System.out.println("Metoda ataku z klasu szkielet");
+	}
 	
 }
