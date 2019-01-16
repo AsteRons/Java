@@ -23,4 +23,20 @@ Potwor p = new Szkielet();
 
 MODYFIKATOR PROTECTED:
 
-protected - 
+protected - można używać w klasach dziedziczących po nadklasie
+
+pola-  private
+metody - protected
+
+
+ABSTRAKCYJNE KLASY I METODY:
+
+klasa abstracyjna - klasa od której nie można tworzyć obiektów
+	- ciężko ją jakoś zobrazowac
+	- możemy tworzyć abstrakcyjne metody
+	+ jesli chce aby coś było nadpisane i abym o nim nie zapomniał
+	+ cos jest niezbedne
+	
+	- da rade poprzez polimorfizm co jest najbardziej w tym istotne
+	
+	

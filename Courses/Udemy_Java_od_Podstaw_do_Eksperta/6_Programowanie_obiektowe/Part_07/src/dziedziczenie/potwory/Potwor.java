@@ -2,10 +2,10 @@ package dziedziczenie.potwory;
 
 
 
-public class Potwor {
+ public abstract class Potwor {
 	
-	public double predkoscChodzenia = 10;
-	public double zywotnosc;
+	private double predkoscChodzenia = 10;
+	private double zywotnosc;
 	
 	public Potwor()
 	{
@@ -22,7 +22,9 @@ public class Potwor {
 	}
 	
 	
-	public void atakuj()
+	 abstract protected void opis();
+
+	 protected void atakuj()
 	{
 
 		System.out.println("Metoda ataku z klasu potwor");

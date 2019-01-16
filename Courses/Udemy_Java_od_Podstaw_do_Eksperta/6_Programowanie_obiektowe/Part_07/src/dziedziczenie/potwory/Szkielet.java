@@ -4,7 +4,7 @@ package dziedziczenie.potwory;
 public class Szkielet extends Potwor
 {
 
-	String typBroni;
+	private String typBroni;
 	public Szkielet()
 		{
 			System.out.println("Domyœlny konstruktor z klasy Szkielet");
@@ -30,10 +30,18 @@ public class Szkielet extends Potwor
 	}
 	
 	
-	public void atakuj()
+	protected void atakuj()
 	{
 
 		System.out.println("Metoda ataku z klasu szkielet");
+	}
+
+
+	@Override
+	
+	protected void opis() {
+		
+		
 	}
 	
 }

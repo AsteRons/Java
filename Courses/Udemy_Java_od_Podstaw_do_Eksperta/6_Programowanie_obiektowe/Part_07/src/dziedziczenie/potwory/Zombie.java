@@ -7,4 +7,10 @@ public class Zombie extends Potwor {
 	{
 		System.out.println("Domyœlny konstruktor z klasy Zombie");
 	}
+
+	
+	protected void opis() {
+		
+		
+	}
 }
