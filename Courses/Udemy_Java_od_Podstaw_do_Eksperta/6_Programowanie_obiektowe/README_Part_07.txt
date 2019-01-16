@@ -20,3 +20,7 @@ Potwor p = new Szkielet();
 
 + Szkielet przyjmuje cachy potwora oraz szkieleta.
 - możemy stworzyć metod
+
+MODYFIKATOR PROTECTED:
+
+protected - 
