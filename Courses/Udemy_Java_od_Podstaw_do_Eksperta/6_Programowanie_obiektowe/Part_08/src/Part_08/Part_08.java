@@ -16,8 +16,8 @@ public class Part_08 {
 			
 			if(osoba[i] instanceof Osoba)
 			{
-				if(osoba[i] instanceof Pracownik)
-				((Pracownik) osoba[i]).pobierzOpis();
+				if(osoba[i] instanceof Pracownik)	//wybieramy tylko pracowników
+				((Pracownik) osoba[i]).pobierzOpis(); //³¹czenie w dó³
 			}
 				
 			
