@@ -12,10 +12,19 @@ public class Part_08 {
 
 		for(int i = 0; i< osoba.length; i++)
 		{
+			
+			
 			if(osoba[i] instanceof Osoba)
-				osoba[i].pobierzOpis();
+			{
+				if(osoba[i] instanceof Pracownik)
+				((Pracownik) osoba[i]).pobierzOpis();
+			}
+				
+			
 			else
 				break;
+			
+			
 		}
 		
 	

@@ -9,3 +9,5 @@ instanceof - wywołuje jesli kontener jest stworzony oraz jest instancją klasy 
 		   
 RUTOWANIE W DÓŁ ORAZ LATE - BINDING
 
+- rzutowanie w dół
+	rzutowanie klasy wyżej do klasy nizej w hierarchi

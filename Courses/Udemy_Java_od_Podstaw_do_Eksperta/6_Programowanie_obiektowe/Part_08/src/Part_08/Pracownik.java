@@ -19,4 +19,9 @@ public class Pracownik extends Osoba{
 		System.out.println(imie + " " + nazwisko + " jest pracownikiem i zarabia " + wynagrodzenie);
 	}
 	
+	void pracuj()
+	{
+		System.out.println("Ja pracuje");
+	}
+	
 }
