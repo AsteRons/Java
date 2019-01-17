@@ -5,19 +5,22 @@ public class Part_14 {
 	public static void main(String[] args) {
 		
 		
-		ZachowaniePoWcisnieciu z = new ZachowaniePoWcisnieciu() {
+
+		
+		
+		Przycisk p = new Przycisk();
+		
+		p.dodajAkcje(new ZachowaniePoWcisnieciu()
+		{
 
 			
 			public void akcja() {	//pojedyncze 
 				
 				System.out.println("Jestem z anonimowej");
 			}
-		};
+		}
 		
-		
-		Przycisk p = new Przycisk();
-		
-		p.dodajAkcje(z);
+				);
 		
 			
 	}
