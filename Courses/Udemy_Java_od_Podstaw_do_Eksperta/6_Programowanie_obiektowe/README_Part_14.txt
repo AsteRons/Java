@@ -1,0 +1,2 @@
+﻿KLASA ANONIMOWA:
+
