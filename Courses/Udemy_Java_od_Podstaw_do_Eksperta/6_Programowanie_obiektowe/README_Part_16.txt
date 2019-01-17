@@ -1,0 +1,2 @@
+﻿OBSŁUGA WYJĄTKOW:
+
