@@ -1,9 +1,28 @@
 package Part_03;
 
-public class Main {
+import javax.swing.*;
+import java.awt.*;
 
+
+public class Main extends JFrame{
+
+	
+	public Main()
+	{
+		
+	super("Uk³ad graficzny (Layout)");
+	this.setBounds(300, 320, 300, 200);
+	
+	
+	this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+	new Main().setVisible(true);
 
 	}
 
