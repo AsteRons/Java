@@ -1,4 +1,5 @@
 ﻿MENADŻER UKŁADÓW, KOMPONENTY, SZYBKA, PRZYCISKI:
+
 Plik Main.java
 
 Layout - układ graficzny
@@ -22,7 +23,11 @@ Dodawanie komponenty do szybki:
  this.pack() - okienka zostana dostosowane do wielkości naszych napisaów w buttonach
  
  
-Plik Layout_null.java
 
-Pozycjonowanie apsolutne:
+ 
+Pozycjonowanie apsolutne, poprzez własnoręczne ustawianie pozycji:
 - ustawianie na przycisku Layout na null
+  + Ustawienie przycisku o okreslonym wymiarze w podanym miejscu
+  
+  Menadżer układow ma większy priorytet niż ustawianie absolutne
+  

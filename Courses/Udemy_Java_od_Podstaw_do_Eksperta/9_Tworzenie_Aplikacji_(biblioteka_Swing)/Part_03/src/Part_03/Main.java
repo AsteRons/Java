@@ -39,11 +39,23 @@ public class Main extends JFrame{
 		
 		Container kontener = this.getContentPane();			//pobieranie szybki
 		
+		/*
 		kontener.add(przyciskCenter, BorderLayout.CENTER);	// dodanie przycisku do szybki
 		kontener.add(przyciskTop  ,  BorderLayout.NORTH);	// dodanie przycisku do szybki
 		kontener.add(przyciskLewa ,  BorderLayout.LINE_START);	// dodanie przycisku do szybki		
 		kontener.add(przyciskPrawa,  BorderLayout.LINE_END);	// dodanie przycisku do szybki
-		kontener.add(przyciskBot  ,  BorderLayout.SOUTH);	// dodanie przycisku do szybki		
+		kontener.add(przyciskBot  ,  BorderLayout.SOUTH);	// dodanie przycisku do szybki	
+		*/
+		
+		
+		
+		przyciskCenter.setLocation(100, 50);	// Ustawiam lokalizacje
+		przyciskCenter.setSize(100, 50);		// Ustawiam rozmiar przycisku
+		
+		kontener.setLayout(null);				//ustawianie na przycisku Layout na null
+		kontener.add(przyciskCenter);
+		
+		
 		
 	}
 	
