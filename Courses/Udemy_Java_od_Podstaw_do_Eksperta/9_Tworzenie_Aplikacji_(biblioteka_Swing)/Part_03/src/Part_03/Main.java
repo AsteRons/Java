@@ -47,13 +47,15 @@ public class Main extends JFrame{
 		kontener.add(przyciskBot  ,  BorderLayout.SOUTH);	// dodanie przycisku do szybki	
 		*/
 		
-		
+		// Ustawienie przycisku o okreslonym wymiarze w podanym miejscu
 		
 		przyciskCenter.setLocation(100, 50);	// Ustawiam lokalizacje
 		przyciskCenter.setSize(100, 50);		// Ustawiam rozmiar przycisku
 		
 		kontener.setLayout(null);				//ustawianie na przycisku Layout na null
 		kontener.add(przyciskCenter);
+		
+		
 		
 		
 		
