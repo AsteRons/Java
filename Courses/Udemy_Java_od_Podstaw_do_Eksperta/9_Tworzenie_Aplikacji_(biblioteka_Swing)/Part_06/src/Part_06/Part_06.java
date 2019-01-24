@@ -35,12 +35,15 @@ public class Part_06 extends JFrame implements ActionListener{
 	 { 
 		kolorCzerwony = new JButton("Czerwony"); //zród³o moze dodwaæ s³uchacza
 		kolorCzarny   = new JButton("Czarny"); //zród³o moze dodwaæ s³uchacza
-		kolorNiebieski = new JButton("Niebieski");
+		kolorNiebieski = new JButton("Niebieski"); // 
 		
 		
 		
 		kolorCzerwony.addActionListener(new sluchaczKolorow(Color.RED));	//dodaj s³uchacza akcji 
 		kolorCzarny.addActionListener(new sluchaczKolorow(Color.BLACK));	//dodaj s³uchacza akcji 
+		kolorNiebieski.addActionListener(this); //wywo³any przez zdarzenie g³ówne
+		
+		
 		
 		panel.add(kolorCzerwony);
 		panel.add(kolorCzarny);
@@ -108,11 +111,14 @@ public class Part_06 extends JFrame implements ActionListener{
 	
 		new Part_06().setVisible(true);
 		
+		
 	}
 
 
 	public void actionPerformed(ActionEvent e) {
 	
+		if(e.getSource() == kolorNiebieski)
+		panel.setBackground(Color.BLUE);
 	}
 
 }
