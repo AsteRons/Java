@@ -1,0 +1,2 @@
+﻿WSTĘP DO ZDARZEŃ:
+
