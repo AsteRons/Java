@@ -1,1 +1,2 @@
-﻿
+﻿POLE WYBORU - CHECKBOX:
+
