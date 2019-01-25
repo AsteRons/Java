@@ -7,6 +7,14 @@ import java.awt.event.*;
 public class Part_09 extends JFrame {
 
 	/*
+	 * Stworzone komponentów
+	 */
+	JPanel panel1 = new JPanel();
+	JPanel panel2 = new JPanel();
+	
+	
+	
+	/*
 	 * Konstruktor domyslny
 	 */
 	
@@ -26,6 +34,7 @@ public class Part_09 extends JFrame {
 		this.setBounds(500, 500 ,500, 400);
 		
 		
+		this.getContentPane().add(, constraints);
 		
 	}
 	
