@@ -24,6 +24,19 @@ public class Part_08 extends JFrame{
 		
 		panel2.add(etykieta);
 		
+		malyprzelacznik.addActionListener(new ActionListener() {
+
+			
+			public void actionPerformed(ActionEvent e) {
+				
+				
+			}
+			
+			
+		}
+				
+				);
+		
 		groupSize.add(malyprzelacznik);
 		groupSize.add(sredniprzelacznik);
 		
