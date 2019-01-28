@@ -51,7 +51,7 @@ public class Part_09 extends JFrame {
 		panel1.add(pochylony);
 		
 		this.getContentPane().add(panel1, BorderLayout.NORTH);
-		this.getContentPane().add(panel2, BorderLayout.CENTER);
+		this.getContentPane().add(panel2, BorderLayout.CENTER); //Opis
 		
 		
 		
