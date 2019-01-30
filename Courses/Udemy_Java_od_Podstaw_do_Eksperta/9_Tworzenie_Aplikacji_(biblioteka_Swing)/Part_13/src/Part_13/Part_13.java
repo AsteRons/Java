@@ -27,8 +27,8 @@ public class Part_13 extends JFrame{
 					
 					public void actionPerformed(ActionEvent e) {
 					
-					System.out.println(((JComboBox)e.getSource()).getSelectedItem());
-					
+						ColorHandler obsluga =(ColorHandler)((JComboBox)e.getSource()).getSelectedItem();
+					((JComboBox)e.getSource()).setBackground(obsluga.getColor());
 					
 					}
 				});
@@ -59,6 +59,12 @@ public class Part_13 extends JFrame{
 		{
 			return this.colorName;
 		}
+		
+		public Color getColor()
+		{
+			return this.kolor;
+		}
+		
 	}
 	
 	
