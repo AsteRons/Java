@@ -19,6 +19,12 @@ public class Part_12 extends JFrame{
 		panelSzukania.add(znajdz);
 		panelSzukania.add(szukany);
 		
+		panelSzukania.add(etykietaI);
+		panelSzukania.add(zamien);
+		panelSzukania.add(etykietaNa);
+		panelSzukania.add(nowyTekst);
+
+		
 		// obszarTekstowy.selectAll();  			   	//- zaznacza ca³y tekst
 		// obszarTekstowy.select(0, 2);	   			     // - zaznacza obszar odk¹d - dok¹d
 		// obszarTekstowy.replaceSelection("lala");		 //- zamieniæ obszar, który aktualnie jest zaznaczony
@@ -27,7 +33,9 @@ public class Part_12 extends JFrame{
      	// obszarTekstowy.append("Ja");				//- do³¹cza do koñca obszaru podany tekst
 		// obszarTekstowy.select(obszarTekstowy.getText().indexOf("test"), obszarTekstowy.getText().indexOf("test")+ "test".length());
 				
-		znajdz.addActionListener(new Znajdowanie() );
+		znajdz.addActionListener(new Znajdowanie());
+		
+		zamien.addActionListener(new Zamienianie());
 		
 		
 		this.getContentPane().add(obszarPrzewijania, BorderLayout.NORTH);	
@@ -44,10 +52,17 @@ public class Part_12 extends JFrame{
 	private JButton znajdz = new JButton("Szukaj");
 	private JTextField szukany = new JTextField(8);
 	
+	private JLabel etykietaI = new JLabel("i");
+	private JButton zamien = new JButton("Zamieñ");
+	private JLabel etykietaNa = new JLabel("na");
+	private JTextField nowyTekst = new JTextField(8);
+	
+	
 	public static void main(String[] args) {
 		new Part_12().setVisible(true);
 
 	}
+	
 	
 	private class Znajdowanie implements ActionListener
 	{
@@ -58,9 +73,14 @@ public class Part_12 extends JFrame{
 			
 			// Wypisuje mi numer pocz¹tku wpisanego tekstu
 			// Jesli nie znalaz³o wypisuje -1 
-			poczatekSzukanego = obszarTekstowy.getText().indexOf(szukany.getText());
+			poczatekSzukanego = obszarTekstowy.getText().indexOf(szukany.getText(), poczatekSzukanego + szukany.getText().length());
 			
 			System.out.println(poczatekSzukanego );
+			if(poczatekSzukanego == -1)
+			poczatekSzukanego = obszarTekstowy.getText().indexOf(szukany.getText());
+				
+			
+			
 			
 			if(poczatekSzukanego >= 0 && szukany.getText().length() > 0) 
 			{
@@ -72,5 +92,37 @@ public class Part_12 extends JFrame{
 		
 	}
 	
+	
+	
+	private class Zamienianie implements ActionListener
+	{
+
+		public void actionPerformed(ActionEvent e) {
+			
+			if(obszarTekstowy.getSelectionStart() != obszarTekstowy.getSelectionEnd())
+			{
+				
+				zamienTekst();
+			
+			}
+			else
+			{
+				znajdz.doClick(0);
+				if(obszarTekstowy.getSelectionStart() != obszarTekstowy.getSelectionEnd())
+				zamienTekst();
+			}
+		}
+		
+		private void zamienTekst()
+		{
+			obszarTekstowy.requestFocus();
+			int opcja = JOptionPane.showConfirmDialog(rootPane, "Czy chcesz zamieniæ \" " + szukany.getText() + " \" na : " + nowyTekst.getText(), "Uwaga nast¹pi zmiana", JOptionPane.YES_NO_CANCEL_OPTION);
+			
+			if(opcja == 0)
+			obszarTekstowy.replaceRange(nowyTekst.getText(), obszarTekstowy.getSelectionStart() , obszarTekstowy.getSelectionEnd());	
+		}
+		
+		
+	}
 
 }

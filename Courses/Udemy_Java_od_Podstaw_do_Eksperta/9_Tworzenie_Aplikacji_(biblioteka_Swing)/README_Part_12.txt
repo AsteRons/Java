@@ -1,5 +1,13 @@
 ﻿OBSZAR TEKSTOWY, PRZESZUKIWANIE I PODMIENIANIE TEKSTU:
 
+Opis:
+Program znajduje w stringu okreslony tekst następnie może go zamienić
+na inny wpisany na przez urzytkownika.
+Po próbie zamienienia wyskakuje komunikat o chęci zmiany i zgodzie na nią.
+
+
+
+
 - Tworzenie obszaru tekstowego
 - Przeszukuje obszar tekstowy i ewentualnie zamienia tekst
 
@@ -49,3 +57,37 @@ Tworzymy program do szukania wyrazów
 5. Sprawdzamy czy w polu cos jest wpisane oraz czy długosć wpisanego tekstu jest większa od 0
 6. Ustawienie skupienia na obszaze tekstowym
 7. Zaznaczenie tekstu od poczatekSzukanego do poczatekSzukanego + długosć tekstu
+
+
+indexOf(x, y) - działamy na tekście
+x - podłańcuch do wyszukania
+y - index od którego rozpoczyna się wyszukiwanie
+
+
+
+
+
+Podmienia wyszukany tekst:
+
+- do podmieniania tworzymy nowy przycisk, pole tekstowe oraz etykiete
+- na przycisk nakładamy nasłuchiwacz
+- tworzymy nową klase do nasłuchiwacza
+	* w klasie dzieki metodzie replaceRange(x, y, z) zamieniamy zaznaczony tekst na tekst z obszaru tekstowego
+	
+	x - obszar tekstowy na który chcemy wstawić
+	y - początek tekstu który mamy podmienic
+	z - koniec tekstu który mamy podmienic
+	
+Metoda:
+- doClick(x) - symyluje kliknięcie
+	x - czas trwania kliknięcia
+	
+- JOptionPane.showConfirmDialog(rootPane, x, y , z);
+	
+	x - treśc komunikatu
+	y - tytuł
+	z - wartośc jaka wystąpi po wciśnięciu YES
+	
+- requestFocus - ustawia fokus
+
+
