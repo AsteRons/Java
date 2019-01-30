@@ -8,6 +8,7 @@ import java.awt.event.*;
 public class Part_13 extends JFrame{
 
 	private JPanel panel = new JPanel();
+	private JComboBox kombinacja = new JComboBox();
 	
 	public Part_13()
 	{
@@ -20,9 +21,46 @@ public class Part_13 extends JFrame{
 	{
 		this.setTitle("Listy kombinowane");
 		this.setBounds(500, 500, 500, 400);
+		kombinacja.addActionListener(new ActionListener()
+				{
+
+					
+					public void actionPerformed(ActionEvent e) {
+					
+					System.out.println(((JComboBox)e.getSource()).getSelectedItem());
+					
+					
+					}
+				});
+		
+		
+	panel.add(kombinacja);
 	
+	kombinacja.addItem(new ColorHandler(Color.BLACK ,"Czarny"));
+	kombinacja.addItem(new ColorHandler(Color.GREEN ,"Zielony"));
+	kombinacja.addItem(new ColorHandler(Color.BLUE ,"Niebieski"));
+	kombinacja.addItem(new ColorHandler(Color.YELLOW ,"¯ó³ty"));
+	
+	this.getContentPane().add(panel);
 	this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
+	
+	private class ColorHandler
+	{
+		private Color kolor;
+		private String colorName;
+		public ColorHandler(Color kolor, String colorName)
+		{
+			this.kolor = kolor;
+			this.colorName = colorName;
+		}
+		
+		public String toString()
+		{
+			return this.colorName;
+		}
+	}
+	
 	
 	public static void main(String[] args) {
 		
