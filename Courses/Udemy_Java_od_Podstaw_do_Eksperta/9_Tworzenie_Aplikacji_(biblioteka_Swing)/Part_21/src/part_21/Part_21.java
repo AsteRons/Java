@@ -5,17 +5,73 @@
  */
 package part_21;
 
-/**
- *
- * @author Maciek
- */
-public class Part_21 {
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
-    /**
-     * @param args the command line arguments
-     */
+
+public class Part_21 extends JFrame{
+    
+    public Part_21()
+    {
+        initComponents();
+    }
+    
+    
+    private void initComponents()
+    {
+        this.setTitle("Menu kontekstowe");
+        this.setBounds(500, 500, 500, 400);
+        final  JPopupMenu menuKontekstowe = new JPopupMenu();
+        menuKontekstowe.add(new JMenuItem(new AbstractAction("Zamknij"){
+        
+            public void actionPerformed(ActionEvent ae) {
+                System.exit(0);
+            }
+        
+        
+        
+        }));
+        menuKontekstowe.add(new JMenuItem("Kopiuj"));
+        menuKontekstowe.add(new JMenuItem("Wklej"));
+         
+        
+        
+        this.getContentPane().addMouseListener(new MouseAdapter(){
+                
+            public void mouseReleased(MouseEvent me) {
+                
+                    System.out.println("zwolnienie");
+                
+                    if(me.getClickCount() == 3 && me.getButton() == MouseEvent.BUTTON1)
+                        JOptionPane.showMessageDialog(rootPane, "Przestń klikać! : " + me.getClickCount());
+                    
+                    if(me.isPopupTrigger())
+                    menuKontekstowe.show(me.getComponent(), me.getX(), me.getY());
+                        
+            }
+
+            
+           
+        
+        });
+        
+        
+        
+        this.getContentPane().add(testowiec, BorderLayout.SOUTH);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    
+    
+    
+    private JButton testowiec = new JButton("Test");
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+    
+        
+      new Part_21().setVisible(true);
+        
     }
     
 }
