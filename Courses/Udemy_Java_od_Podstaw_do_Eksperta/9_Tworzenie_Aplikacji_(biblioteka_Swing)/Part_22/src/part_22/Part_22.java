@@ -11,8 +11,12 @@ import java.awt.event.*;
 
 public class Part_22 extends JFrame{
 
-    JToolBar pasekNarzedzi = new JToolBar("Nazwa nowej ramki");
-    JButton button = new JButton("Wyłącz malowanie");
+    private JToolBar pasekNarzedzi = new JToolBar("Nazwa nowej ramki");
+    private  JButton button = new JButton("Wyłącz malowanie");
+    private JPanel panel = new JPanel();
+    private KolorowyButton aktywny = null;
+    
+    
     
     public Part_22()
     {
@@ -26,16 +30,51 @@ public class Part_22 extends JFrame{
        this.setTitle("Pasek Narzędzi");
        this.setBounds(500, 500, 500, 400);
       
-       pasekNarzedzi.add(new KolorowyButton(new ActionColor("Zmieniam kolor na zielony", new ImageIcon("zielony.gif"), Color.GREEN )));
+       pasekNarzedzi.add(new KolorowyButton(new ActionColor("Zmieniam kolor na zielony",   new ImageIcon("zielony.gif"),   Color.GREEN )));
        pasekNarzedzi.add(new KolorowyButton(new ActionColor("Zmieniam kolor na niebieski", new ImageIcon("niebieski.gif"), Color.BLUE )));       
-       pasekNarzedzi.add(new KolorowyButton(new ActionColor("Zmieniam kolor na czerwony", new ImageIcon("czerwony.gif"), Color.RED )));       
+       pasekNarzedzi.add(new KolorowyButton(new ActionColor("Zmieniam kolor na czerwony",  new ImageIcon("czerwony.gif"),  Color.RED )));       
        pasekNarzedzi.add(button);
+       
+       button.addActionListener(new ActionListener(){
+           
+           public void actionPerformed(ActionEvent ae) {
+              
+               panel.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+                 for(int i = 0; i < pasekNarzedzi.getComponentCount(); i++)
+                    {
+                        
+                       if(pasekNarzedzi.getComponent(i) instanceof KolorowyButton)
+                       {
+                           KolorowyButton temp = (KolorowyButton)pasekNarzedzi.getComponent(i);
+                           temp.setBackground(Color.WHITE);
+                           temp.setZaznacziny(false);
+                       }
+                    }
+                 aktywny = null;
+                 
+                 
+               
+           }
+       });
+       
+       
+       panel.addMouseListener(new MouseAdapter(){
+       
+       public void mousePressed(MouseEvent e)
+       {
+           if(aktywny != null)
+           panel.setBackground((Color)aktywny.getAction().getValue("kolor"));
+       }
+           
+       });
+       
+       
+       this.getContentPane().setLayout(new GridLayout(2, 1));
        this.getContentPane().add(pasekNarzedzi, BorderLayout.NORTH);
+       this.getContentPane().add(panel);
        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    }
   
-   
-   
    // Klasa do tworzenia akcji przycisku
    private class ActionColor extends AbstractAction
    {
@@ -49,6 +88,7 @@ public class Part_22 extends JFrame{
        }
         public void actionPerformed(ActionEvent ae) {
   
+            aktywny = (KolorowyButton)ae.getSource();
         }
 
    }
@@ -71,9 +111,15 @@ public class Part_22 extends JFrame{
                        if(pasekNarzedzi.getComponent(i) instanceof KolorowyButton)
                        {
                            KolorowyButton temp = (KolorowyButton)pasekNarzedzi.getComponent(i);
+                           temp.setBackground(Color.WHITE);
+                           temp.setZaznacziny(false);
+
                        }
                       
                     }
+                     //  panel.setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
+                      
+                      panel.setCursor(Toolkit.getDefaultToolkit().createCustomCursor(new ImageIcon("kursorek.png").getImage(), new Point(20, 17), "Nasz kursor"));
                     
                    ten.setBackground((Color)actionColor.getValue("kolor"));
                    ten.setZaznacziny(true);

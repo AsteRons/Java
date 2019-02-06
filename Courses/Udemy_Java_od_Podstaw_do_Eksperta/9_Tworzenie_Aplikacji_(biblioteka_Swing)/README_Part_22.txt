@@ -1,5 +1,10 @@
 ﻿PASEK NARZĘDZI I KURSORY:
 
+Program tworzy aplikacje podobną do painta.
+Dzięki temu programowi można zmieniać tło aplikacji.
+Program używa równiez przycisków.
+
+
 Program uczy:
 
 I. Jak zmienić pasek narzędzi
@@ -26,5 +31,13 @@ I. Jak zmienić pasek narzędzi
 	
 II. Jak zmienić kursor na własny
 
+- setCursor - ustawia kursor 
 
 
+Tworzenie własnego kursora:
+
+ panel.setCursor(Toolkit.getDefaultToolkit().createCustomCursor(x, y, z)
+ 
+ x - ikonka kursora
+ y - punkt gdzie kilkamy
+ z - nazwa kursorka
