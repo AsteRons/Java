@@ -1,0 +1,6 @@
+﻿ SWOBODNY DOSTĘP DO PLIKU - UPGRADE:
+ 
+ 
+ 
+ 
+ 
