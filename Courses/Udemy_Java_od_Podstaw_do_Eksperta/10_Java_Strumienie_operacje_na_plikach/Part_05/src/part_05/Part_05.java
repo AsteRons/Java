@@ -1,9 +1,9 @@
-package part_04;
+package part_05;
 
 import java.io.*;
 
 
-public class Part_04 {
+public class Part_05 {
 
 	
 	

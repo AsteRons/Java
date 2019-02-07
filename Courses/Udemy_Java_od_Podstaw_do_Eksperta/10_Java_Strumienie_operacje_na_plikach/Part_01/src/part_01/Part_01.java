@@ -72,7 +72,7 @@ public class Part_01 {
 		File p = new File(nazwaSciezki.getPath(), nazwyPlikowIKatalogow[i]);
 		
 		
-		if(p.isFile())
+		// if(p.isFile()) //- aby znaleœæ tylko pliki
 		System.out.println(p.getPath());
 	
 		if(p.isDirectory())
