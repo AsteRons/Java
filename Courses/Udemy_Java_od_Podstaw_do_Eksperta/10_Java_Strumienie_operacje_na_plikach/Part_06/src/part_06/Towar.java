@@ -14,8 +14,8 @@ public class Towar {
 	private double cena;
 	private String nazwa;
 	private Date dataWydania;
-	
-	
+	public static final int DLUGOSC_NAZWY = 30;
+	public static final int DLUGOSC_REKORDU = (Character.SIZE * DLUGOSC_NAZWY + Double.SIZE + 3 * Integer.SIZE) / 8;
 	
 	
 	public Towar()
@@ -92,48 +92,67 @@ public class Towar {
 		GregorianCalendar kalendarz = new GregorianCalendar();
 		kalendarz.setTime(this.dataWydania);
 		
-		return this.cena + "z³" + this.nazwa + " " + kalendarz.get(Calendar.YEAR)  + "|" + (kalendarz.get(Calendar.MONTH) + 1) + "|" + kalendarz.get(Calendar.DAY_OF_MONTH);
+		return this.cena + " z³  " + this.nazwa + "  " + kalendarz.get(Calendar.YEAR)  + " | " + (kalendarz.get(Calendar.MONTH) + 1) + " | " + kalendarz.get(Calendar.DAY_OF_MONTH);
 		
 	}
 	
+	//------------------------ZAPIS-------------------------//
 	
-	// Zapis do pliku
 	
-	public static void zapiszDoPliku(Towar[] towar, PrintWriter outS)
+	// Metoda do zapisu wszytskiego
+	
+	public static void zapiszDoPliku(Towar[] towar, DataOutput outS) throws IOException
 	{
-		outS.println(towar.length);
-		
-		GregorianCalendar kalendarz = new GregorianCalendar();
+
 		
 		for( int i = 0; i < towar.length; i++)
 		{
-			kalendarz.setTime(towar[i].pobierzDate());
-			outS.println(towar[i].pobierzCene() + "|" + towar[i].pobierzNazwe() +  "|" + kalendarz.get(Calendar.YEAR)  + "|" + (kalendarz.get(Calendar.MONTH) + 1) + "|" + kalendarz.get(Calendar.DAY_OF_MONTH) );
 			
+			towar[i].zapiszDane(outS);
 		}
 		
 
 	}
 
-	// ODczyt z pliku
-	
-	public static  Towar[] odczytajZPliku(BufferedReader inS )	throws IOException
+	// Metoda do zapisu pojedyñczego rekordu
+	public void zapiszDane(DataOutput outS) throws IOException
 	{
-		int dl = Integer.parseInt(inS.readLine());
 		
-		Towar[] towar = new Towar[dl];
+		outS.writeDouble(this.cena);
 		
-		for(int i = 0; i < dl; i++)
+		StringBuffer stringB = new StringBuffer(Towar.DLUGOSC_NAZWY);
+		stringB.append(this.nazwa);
+		stringB.setLength(Towar.DLUGOSC_NAZWY);
+		
+		outS.writeChars(stringB.toString());
+	
+		GregorianCalendar kalendarz = new GregorianCalendar();
+		kalendarz.setTime(this.dataWydania);
+		
+		outS.writeInt(kalendarz.get(Calendar.YEAR));
+		outS.writeInt((kalendarz.get(Calendar.MONTH)+1));
+		outS.writeInt(kalendarz.get(Calendar.DAY_OF_MONTH));
+	}
+	
+	
+	//------------------------ODCZYT-------------------------//
+	
+	
+	
+	// Odczyt z pliku
+	
+	public static  Towar[] odczytajZPliku(RandomAccessFile RAF )	throws IOException
+	{
+		
+		int ilRekordow = (int)(RAF.length() / Towar.DLUGOSC_REKORDU);
+		
+		
+		Towar[] towar = new Towar[ilRekordow];
+		
+		for(int i = 0; i < ilRekordow; i++)
 		{
-			String linia = inS.readLine();
-			StringTokenizer tokeny = new StringTokenizer(linia, "|");
-			double cena = Double.parseDouble(tokeny.nextToken());
-			String nazwa = tokeny.nextToken();
-			int rok = Integer.parseInt(tokeny.nextToken());
-			int m = Integer.parseInt(tokeny.nextToken());
-			int dz = Integer.parseInt(tokeny.nextToken());
-			
-			towar[i]	=	new Towar(cena, nazwa, rok, m, dz);
+		towar[i] = new Towar();
+		towar[i].czytajDane(RAF);
 			
 		}
 		
@@ -142,4 +161,46 @@ public class Towar {
 	}
 	
 	
+	
+	public void czytajDane(DataInput inS) throws IOException
+	{
+		
+		this.cena = inS.readDouble();
+		StringBuffer stringB = new StringBuffer(Towar.DLUGOSC_NAZWY);
+		
+		for(int i = 0; i < Towar.DLUGOSC_NAZWY; i++)
+		{
+			char tCh = inS.readChar();
+			
+			if(tCh != '\0')
+				stringB.append(tCh);
+			
+		}
+		this.nazwa = stringB.toString();
+		
+		int rok = inS.readInt();
+		int m = inS.readInt();
+		int dz = inS.readInt();
+		
+		GregorianCalendar kalendarz = new GregorianCalendar(rok,m - 1, dz);
+		this.dataWydania = kalendarz.getTime();
+	}
+	
+	
+	// Pobieramy wskazany rekord danych
+	
+public void czytajRekord(RandomAccessFile RAF, int n) throws IOException, BrakRekordu
+{
+	if(n <= RAF.length() / Towar.DLUGOSC_REKORDU)
+	{
+	RAF.seek((n-1) * Towar.DLUGOSC_REKORDU);
+	this.czytajDane(RAF);
+	}
+	else
+		throw new BrakRekordu("Nie ma takiego rekordu");
+ 		
+	
+}
+	
+
 }

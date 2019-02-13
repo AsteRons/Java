@@ -24,9 +24,33 @@ public class Part_06 {
 
 			RandomAccessFile RAF = new  RandomAccessFile("baza.txt", "rw");
 		
+			Towar.zapiszDoPliku(towar, RAF);
+			
+			RAF.seek(0);
+
+			Towar[] towary = Towar.odczytajZPliku(RAF);
 			
 			
-			
+			// Wczytanie ca³ej bazy danych
+			for( int i = 0; i < towary.length; i++)
+			{
+				System.out.println(towary[i].pobierzCene());
+				System.out.println(towary[i].pobierzNazwe());
+				System.out.println(towary[i].pobierzDate());
+				System.out.println("--------------------------");
+			}
+		
+			try {
+          Towar b = new Towar();
+          b.czytajRekord(RAF, 3);
+		  System.out.println(b);	
+		  System.out.println("Lalala");	
+		  
+			}
+          catch(BrakRekordu err)
+			{
+        	  System.out.println(err.getMessage());
+			}
 			
 			RAF.close();
 		}
