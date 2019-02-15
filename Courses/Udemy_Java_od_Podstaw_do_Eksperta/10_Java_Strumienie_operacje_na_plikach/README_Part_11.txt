@@ -1,0 +1,2 @@
+﻿OKNO WYBORU PLIKU:
+
