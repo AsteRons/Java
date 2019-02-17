@@ -1,4 +1,4 @@
-package part_02;
+package part_03;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import javax.swing.*;
 
-public class Part_02 extends JFrame {
+public class Part_03 extends JFrame {
 
 	
 	//------------------------Pola------------
@@ -19,7 +19,7 @@ public class Part_02 extends JFrame {
 	
 	//------------------------Konstruktory------------
 	
-	public Part_02()
+	public Part_03()
 	{
 		
 		this.setTitle("Animacja kropelek");
@@ -50,7 +50,7 @@ public class Part_02 extends JFrame {
 	public static void main(String[] args) {
 
 		
-		new Part_02().setVisible(true);
+		new Part_03().setVisible(true);
 	}
 
 	
