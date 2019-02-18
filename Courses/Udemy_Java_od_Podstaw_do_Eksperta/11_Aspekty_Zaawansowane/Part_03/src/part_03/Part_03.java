@@ -25,6 +25,7 @@ public class Part_03 extends JFrame {
 		this.setTitle("Animacja kropelek");
 		this.setBounds(450, 500, 500, 450);
 		JButton bStart = (JButton)panelButtonow.add(new JButton("Start"));
+		JButton bUsun = (JButton)panelButtonow.add(new JButton("Usuñ"));
 		panelAnimacji.setBackground(Color.GRAY );
 		
 		
@@ -34,6 +35,18 @@ public class Part_03 extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				startAnimation();
+			}
+
+		});
+		
+		
+		
+
+		bUsun.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				
+				stopAnimation();
 			}
 
 		});
@@ -55,6 +68,13 @@ public class Part_03 extends JFrame {
 
 	
 	
+	public void stopAnimation()
+	{
+		
+		panelAnimacji.stop();
+		
+		
+	}
 	
 	public void startAnimation()
 	{
@@ -70,47 +90,32 @@ public class Part_03 extends JFrame {
 	
 	class PanelAnimacji extends JPanel
 	{
-		
+		Thread watek;
+		ThreadGroup grupaWatkow = new ThreadGroup("Grupa Kropelek");
+		JPanel ten = this;
 		ArrayList listaKropelek = new ArrayList();
 		
 		public void addKropelka() 
 		{
 			listaKropelek.add(new Kropelka());
-			
-			for(int i = 0; i < 1000; i++)
-			{
-				
-				
-				for(int j = 0; j < listaKropelek.size(); j++)
-				{
-					
-					((Kropelka)listaKropelek.get(j)).ruszKropelka(this);;
-		
-				
-				this.paint(this.getGraphics());
-				try
-				{
-					Thread.sleep(1);
+			watek = new Thread(grupaWatkow, new KropelkaRunnable((Kropelka)listaKropelek.get(listaKropelek.size() - 1)));
+			watek.start();
 
-				}
-				catch(InterruptedException ex)
-				
-				{
-					
-					System.out.println(ex.getMessage());
-				}
-				
-				}
-				
-				
-			}
+			grupaWatkow.list();
 				}
 
+
+	        public void stop()
+	        {
 		
-		
-		
-		
-	        public void paintComponent(Graphics g)
+	        	grupaWatkow.interrupt();
+		    }
+
+
+
+
+
+			public void paintComponent(Graphics g)
 			{
 				
 				super.paintComponent(g);
@@ -122,8 +127,54 @@ public class Part_03 extends JFrame {
 				
 			}
 			
-	}
+	
+	
+	
+	
+	public class KropelkaRunnable implements Runnable
+	{
+		
+		Kropelka kropelka;
 
+		public KropelkaRunnable(Kropelka kropelka)
+		{
+			this.kropelka = kropelka;
+			
+		}
+
+		
+		public void run() {
+			
+           
+			try
+				{
+			
+			while(!Thread.currentThread().isInterrupted())
+			{
+				
+				this.kropelka.ruszKropelka(ten);;
+				repaint();
+				Thread.sleep(1);
+
+			}
+				}
+				catch(InterruptedException ex)
+				
+				{
+					
+					System.out.println(ex.getMessage());
+					listaKropelek.clear();
+					repaint();
+					
+				}
+				
+			
+		}
+
+		
+	}
+	
+}
 }
 
 
