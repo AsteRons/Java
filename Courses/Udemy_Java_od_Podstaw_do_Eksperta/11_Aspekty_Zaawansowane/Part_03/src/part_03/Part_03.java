@@ -167,11 +167,9 @@ public class Part_03 extends JFrame {
 					repaint();
 					
 				}
-				
-			
+	
 		}
 
-		
 	}
 	
 }
