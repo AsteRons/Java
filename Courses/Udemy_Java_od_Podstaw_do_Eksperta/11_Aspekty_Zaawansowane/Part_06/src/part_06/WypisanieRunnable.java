@@ -1,13 +1,16 @@
 package part_06;
 
+import java.util.concurrent.locks.*;
+
+
 public class WypisanieRunnable implements Runnable{
 
 	
 
 	public String msg[] = {"To", "jest", "synchronicznie", "wypisana", "wiadomosc"};
-	private Object lock;
+	private Lock lock;
 	
-	public WypisanieRunnable(Object lock)
+	public WypisanieRunnable(Lock lock)
 	{
 		this.lock = lock;
 	}
@@ -22,8 +25,10 @@ public class WypisanieRunnable implements Runnable{
 public  void display(String threadName)
 {
 	
-	synchronized(lock)
-	{
+	
+	lock.lock();
+	try {
+	
 		for(int i = 0; i < msg.length; i++)
 	{
 		System.out.println(threadName + " " + msg[i]);
@@ -41,7 +46,16 @@ public  void display(String threadName)
 	
 	}
 		
+	
 	}
+	finally
+	{
+		
+		lock.unlock();
+		
+	}
+		
+	
 	
 	
 	
