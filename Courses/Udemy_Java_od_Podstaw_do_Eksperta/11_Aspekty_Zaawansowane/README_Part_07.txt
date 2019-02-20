@@ -7,3 +7,5 @@ wątków, korzystającyhc z jednego zasobu w nieskonczonośc
 
 wait () - zmusza wątek do czekania chyba, ze inny wątek wywola notify  na tym obiekcie
 notify () - odblokowywuije wątek
+
+- korzystanie z bloków synchronized()
