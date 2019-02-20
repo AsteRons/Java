@@ -1,0 +1,2 @@
+﻿TYPY GENERYCZNE:
+
