@@ -1,0 +1,2 @@
+﻿METODY GENERYCZNE:
+
