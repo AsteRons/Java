@@ -29,5 +29,5 @@ public class Part_12 {
 	}
 	
 	
-
+	Vector<String> stos = new Vector<String>();
 }
