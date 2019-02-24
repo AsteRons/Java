@@ -8,3 +8,10 @@
  KLONOWANIE OBIEKTÓW
  
  
+ Dzielimy na:
+ - kolonowanie płytkie - klonujemy klase bez pol
+ - klonowanie glebokie - kolnujemy wszytsko
+ 
+ Do klonowania wykorzystujemy interfejsCloneable oraz metode clone
+ 
+ 
