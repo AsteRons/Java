@@ -14,4 +14,6 @@
  
  Do klonowania wykorzystujemy interfejsCloneable oraz metode clone
  
+ Program Part_03:
  
+ Realizuje kopiowanie głębokie z wykorzystaniem pól w klasie Pracownik.
