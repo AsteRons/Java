@@ -27,6 +27,8 @@ Favorite Language" ${student.favoriteLanguage}"
 Operation System:
 
 <ul>
+
+
 	<c:forEach var="temp" items="${student.operationSystem}">
 
 		<li> ${temp} </li>
@@ -35,11 +37,8 @@ Operation System:
 </ul>
 
 
+
 </body>
-
-
-
-
 </html>
 
 
