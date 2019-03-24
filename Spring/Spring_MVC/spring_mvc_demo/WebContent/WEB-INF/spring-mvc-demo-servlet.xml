@@ -23,6 +23,15 @@
 		<property name="prefix" value="/WEB-INF/view/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	<!-- Load custom message resources -->
+	
+		<bean class="org.springframework.context.support.ResourceBundleMessageSource" 
+		id="messageSource">
+		
+		<property value="resources/messages" name="basenames"/>
+			
+	</bean>
 
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 
