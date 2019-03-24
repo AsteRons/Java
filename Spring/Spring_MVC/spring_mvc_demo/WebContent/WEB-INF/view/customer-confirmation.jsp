@@ -24,4 +24,9 @@ Postal Code: ${customer.postalCode}
 </body>
 
 
+Course Code: ${customer.courseCode}
+
+</body>
+
+
 </html>
