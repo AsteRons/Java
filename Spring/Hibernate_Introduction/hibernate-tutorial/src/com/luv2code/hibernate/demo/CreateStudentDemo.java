@@ -22,7 +22,7 @@ public class CreateStudentDemo {
 		try {			
 			// create a student object
 			System.out.println("Creating new student object...");
-			Student tempStudent = new Student("Maciej", "Rudnik", "maciek@luv2code.com");
+			Student tempStudent = new Student("Maciek", "Doe", "maciek@luv2code.com");
 			
 			// start a transaction
 			session.beginTransaction();
@@ -38,6 +38,7 @@ public class CreateStudentDemo {
 		
 		}
 		finally {
+
 
 			factory.close();
 		}

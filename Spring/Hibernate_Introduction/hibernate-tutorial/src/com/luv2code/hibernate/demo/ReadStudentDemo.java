@@ -57,7 +57,8 @@ public class ReadStudentDemo {
 			System.out.println("Done!");
 		}
 		finally {
-			
+			session.flush();
+			session.close();
 			factory.close();
 		}
 	}
