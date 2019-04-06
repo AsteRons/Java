@@ -42,8 +42,7 @@ public class PrimaryKeyDemo {
 			System.out.println("Done!");
 		}
 		finally {
-			session.flush();
-			session.close();
+
 			factory.close();
 		}
 		
