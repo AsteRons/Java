@@ -3,17 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="199f7d8d-e6a8-4141-8793-c77afead84f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_AOP/.recommenders/caches/identified-project-coordinates.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.frq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.nrm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.prx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.tii" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_4.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring_AOP/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" afterPath="$PROJECT_DIR$/.recommenders/caches/identified-project-coordinates.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_a.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-customer-tracker/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/web-customer-tracker/.classpath" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
     <ignored path="$PROJECT_DIR$/Servers/bin/" />
@@ -55,9 +59,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2619" />
-    <option name="y" value="156" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="112" />
+    <option name="y" value="78" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -67,38 +71,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Spring_MVC_DB_Web_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_MVC_DB_Web_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_MVC_DB_Web_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring_MVC_DB_Web_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-customer-tracker" type="462c0819:PsiDirectoryNode" />
-              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../CMGI Straton Radio WT" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -115,6 +94,55 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Servers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Servers" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -129,9 +157,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2031" y="292" width="1400" height="1000" extended-state="6" />
+    <frame x="112" y="78" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13507463" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
