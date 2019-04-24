@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-starter/spring-security-demo-01-base-app/spring-security-demo-01-basic-app.iml" filepath="$PROJECT_DIR$/spring-security-demo-starter/spring-security-demo-01-base-app/spring-security-demo-01-basic-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" filepath="$PROJECT_DIR$/spring-security-demo-02-basic-security/spring-security-demo-02-basic-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-03-custom-login-form/spring-security-demo-03-custom-login-form.iml" filepath="$PROJECT_DIR$/spring-security-demo-03-custom-login-form/spring-security-demo-03-custom-login-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-04-bootstrap-login-form/spring-security-demo-04-bootstrap-login-form.iml" filepath="$PROJECT_DIR$/spring-security-demo-04-bootstrap-login-form/spring-security-demo-04-bootstrap-login-form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-05-logout/spring-security-demo-05-logout.iml" filepath="$PROJECT_DIR$/spring-security-demo-05-logout/spring-security-demo-05-logout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-06-csrf/spring-security-demo-06-csrf.iml" filepath="$PROJECT_DIR$/spring-security-demo-06-csrf/spring-security-demo-06-csrf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-demo-07-user-roles/spring-security-demo-07-user-roles.iml" filepath="$PROJECT_DIR$/spring-security-demo-07-user-roles/spring-security-demo-07-user-roles.iml" />
+    </modules>
+  </component>
+</project>
