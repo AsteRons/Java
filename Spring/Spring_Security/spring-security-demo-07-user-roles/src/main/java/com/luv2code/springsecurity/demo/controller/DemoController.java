@@ -13,6 +13,11 @@ public class DemoController {
 		return "home";
 	}
 	
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 	// add request mapping for /leaders"
 	
 	@GetMapping("/leaders")
@@ -28,4 +33,8 @@ public class DemoController {
 		return "systems";
 	}
 		
+<<<<<<< HEAD
+=======
+>>>>>>> fb5d52c9c1fea16ee95f536da79ca6f6f1325c0c
+>>>>>>> master
 }

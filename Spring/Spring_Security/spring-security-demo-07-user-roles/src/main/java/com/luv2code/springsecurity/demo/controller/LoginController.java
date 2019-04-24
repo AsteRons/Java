@@ -12,6 +12,11 @@ public class LoginController {
 		return "fancy-login";
 		
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> master
 	
 	
 	// add request mapping for /access-denied
@@ -24,4 +29,8 @@ public class LoginController {
 	}
 	
 	
+<<<<<<< HEAD
+=======
+>>>>>>> fb5d52c9c1fea16ee95f536da79ca6f6f1325c0c
+>>>>>>> master
 }
