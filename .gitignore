@@ -68,3 +68,100 @@
 /Courses/Udemy_Java_od_Podstaw_do_Eksperta/9_Tworzenie_Aplikacji_(biblioteka_Swing)/Part_27/build/
 /Courses/Udemy_Java_od_Podstaw_do_Eksperta/10_Java_Strumienie_operacje_na_plikach/Part_01/nbproject/private/
 /Courses/Udemy_Java_od_Podstaw_do_Eksperta/9_Tworzenie_Aplikacji_(biblioteka_Swing)/Part_09/build
+Courses/Spring_&_Hibernate_for_Beginners_(includes_Spring_Boot)/Spring_Hibernate/Hibernate_Introduction/hb-02-one-to-one-bi/lib/antlr-2.7.7.jar
+Shop_Angular/Project/Angular/admin-portal/.editorconfig
+Shop_Angular/Project/Angular/admin-portal/angular-cli.json
+Shop_Angular/Project/Angular/admin-portal/e2e/app.e2e-spec.ts
+Shop_Angular/Project/Angular/admin-portal/e2e/app.po.ts
+Shop_Angular/Project/Angular/admin-portal/e2e/tsconfig.json
+Shop_Angular/Project/Angular/admin-portal/karma.conf.js
+Shop_Angular/Project/Angular/admin-portal/package-lock.json
+Shop_Angular/Project/Angular/admin-portal/package.json
+Shop_Angular/Project/Angular/admin-portal/protractor.conf.js
+Shop_Angular/Project/Angular/admin-portal/README.md
+Shop_Angular/Project/Angular/admin-portal/src/app/app.component.css
+Shop_Angular/Project/Angular/admin-portal/src/app/app.component.html
+Shop_Angular/Project/Angular/admin-portal/src/app/app.component.spec.ts
+Shop_Angular/Project/Angular/admin-portal/src/app/app.component.ts
+Shop_Angular/Project/Angular/admin-portal/src/app/app.module.ts
+Shop_Angular/Project/Angular/admin-portal/src/assets/.gitkeep
+Shop_Angular/Project/Angular/admin-portal/src/environments/environment.prod.ts
+Shop_Angular/Project/Angular/admin-portal/src/environments/environment.ts
+Shop_Angular/Project/Angular/admin-portal/src/favicon.ico
+Shop_Angular/Project/Angular/admin-portal/src/index.html
+Shop_Angular/Project/Angular/admin-portal/src/main.ts
+Shop_Angular/Project/Angular/admin-portal/src/polyfills.ts
+Shop_Angular/Project/Angular/admin-portal/src/styles.css
+Shop_Angular/Project/Angular/admin-portal/src/test.ts
+Shop_Angular/Project/Angular/admin-portal/src/tsconfig.json
+Shop_Angular/Project/Angular/admin-portal/tslint.json
+Shop_Angular/Project/Angular/store-front/.editorconfig
+Shop_Angular/Project/Angular/store-front/angular-cli.json
+Shop_Angular/Project/Angular/store-front/e2e/app.e2e-spec.ts
+Shop_Angular/Project/Angular/store-front/e2e/app.po.ts
+Shop_Angular/Project/Angular/store-front/e2e/tsconfig.json
+Shop_Angular/Project/Angular/store-front/karma.conf.js
+Shop_Angular/Project/Angular/store-front/package-lock.json
+Shop_Angular/Project/Angular/store-front/package.json
+Shop_Angular/Project/Angular/store-front/protractor.conf.js
+Shop_Angular/Project/Angular/store-front/README.md
+Shop_Angular/Project/Angular/store-front/src/app/app.component.css
+Shop_Angular/Project/Angular/store-front/src/app/app.component.html
+Shop_Angular/Project/Angular/store-front/src/app/app.component.spec.ts
+Shop_Angular/Project/Angular/store-front/src/app/app.component.ts
+Shop_Angular/Project/Angular/store-front/src/app/app.module.ts
+Shop_Angular/Project/Angular/store-front/src/assets/.gitkeep
+Shop_Angular/Project/Angular/store-front/src/environments/environment.prod.ts
+Shop_Angular/Project/Angular/store-front/src/environments/environment.ts
+Shop_Angular/Project/Angular/store-front/src/favicon.ico
+Shop_Angular/Project/Angular/store-front/src/index.html
+Shop_Angular/Project/Angular/store-front/src/main.ts
+Shop_Angular/Project/Angular/store-front/src/polyfills.ts
+Shop_Angular/Project/Angular/store-front/src/styles.css
+Shop_Angular/Project/Angular/store-front/src/test.ts
+Shop_Angular/Project/Angular/store-front/src/tsconfig.json
+Shop_Angular/Project/Angular/store-front/tslint.json
+Shop_Angular/Source Files/code/admin-portal/.angular-cli.json
+Shop_Angular/Source Files/code/admin-portal/.editorconfig
+Shop_Angular/Source Files/code/admin-portal/e2e/app.e2e-spec.ts
+Shop_Angular/Source Files/code/admin-portal/e2e/app.po.ts
+Shop_Angular/Source Files/code/admin-portal/e2e/tsconfig.e2e.json
+Shop_Angular/Source Files/code/admin-portal/karma.conf.js
+Shop_Angular/Source Files/code/admin-portal/package.json
+Shop_Angular/Source Files/code/admin-portal/protractor.conf.js
+Shop_Angular/Source Files/code/admin-portal/README.md
+Shop_Angular/Source Files/code/admin-portal/src/app/app.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/app.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/app.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/app.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/app.module.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/app.routing.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/add-new-book/add-new-book.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/add-new-book/add-new-book.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/add-new-book/add-new-book.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/add-new-book/add-new-book.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/book-list/book-list.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/book-list/book-list.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/book-list/book-list.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/book-list/book-list.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/book-list/dialog-result-example-dialog.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/edit-book/edit-book.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/edit-book/edit-book.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/edit-book/edit-book.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/edit-book/edit-book.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/login/login.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/login/login.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/login/login.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/login/login.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/nav-bar/nav-bar.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/nav-bar/nav-bar.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/nav-bar/nav-bar.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/nav-bar/nav-bar.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/view-book/view-book.component.css
+Shop_Angular/Source Files/code/admin-portal/src/app/components/view-book/view-book.component.html
+Shop_Angular/Source Files/code/admin-portal/src/app/components/view-book/view-book.component.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/components/view-book/view-book.component.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/models/book.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/services/add-book.service.spec.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/services/add-book.service.ts
+Shop_Angular/Source Files/code/admin-portal/src/app/services/edit-book.service.spec.ts
