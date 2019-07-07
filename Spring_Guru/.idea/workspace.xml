@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea4bf7d0-fca0-42fc-984e-c4ea37f59cd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Project/Angular/admin-portal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Project/Angular/store-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/Spring Session.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/edit-book.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/get-book-list.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/get-book-list.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/get-book.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/get-book.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/login.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/remove-book.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/remove-book.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/upload-image.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/app/services/upload-image.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/admin-portal/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/src/main/java/com/bookstore/BookstoreAngularApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/bin/src/test/java/com/bookstore/BookstoreAngularApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/BookstoreAngularApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/config/HttpSessionConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/config/RequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/config/SecurityUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/BillingAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/BookToCartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/ShippingAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/UserBilling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/UserPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/UserShipping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/security/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/security/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/domain/security/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/BillingAddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/BookToCartItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/CartItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/PaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/ShippingAddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/ShoppingCartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/UserBillingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/UserPaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/repository/UserShippingRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/BookResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/CheckoutResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/LoginResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/OrderResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/PaymentResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/ShippingResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/ShoppingCartResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/resource/UserResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/CartItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/ShoppingCartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/UserPaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/UserSecurityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/UserShippingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/CartItemServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/ShoppingCartServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/UserPaymentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/service/impl/UserShippingServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/utility/MailConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/java/com/bookstore/utility/USConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/static/image/book/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/main/resources/templates/orderConfirmationEmailTemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/bookstore-angular/src/test/java/com/bookstore/BookstoreAngularApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/.angular-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/e2e/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/e2e/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/e2e/tsconfig.e2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/app.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-detail/book-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-detail/book-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-detail/book-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-detail/book-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-list/book-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-list/book-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-list/book-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-list/book-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/book-list/data-filter.pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-account/my-account.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-account/my-account.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-account/my-account.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-account/my-account.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-profile/my-profile.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-profile/my-profile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-profile/my-profile.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/my-profile/my-profile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/nav-bar/nav-bar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/nav-bar/nav-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/nav-bar/nav-bar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/nav-bar/nav-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order-summary/order-summary.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order-summary/order-summary.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order-summary/order-summary.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order-summary/order-summary.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order/order.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order/order.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order/order.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/order/order.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/shopping-cart/shopping-cart.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/shopping-cart/shopping-cart.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/shopping-cart/shopping-cart.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/components/shopping-cart/shopping-cart.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/constants/app-const.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/billing-address.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/book.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/cart-item.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/order.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/payment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/shipping-address.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/shopping-cart.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/user-billing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/user-payment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/user-shipping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/models/user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/book.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/book.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/cart.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/cart.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/checkout.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/checkout.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/login.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/order.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/order.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/payment.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/payment.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/shipping.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/shipping.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/app/services/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/bestseller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/book1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/creditcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/faq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/hours.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/shelf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/assets/image/wood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/non-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/code/store-front/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/BookSqlScript.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/data/book images/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/modules.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop_Angular/Source Files/tools.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate/Spring_Boot/cruddemo-JPA-Spring-data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Hibernate/Spring_Boot/cruddemo-JPA-Spring-data/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="A:/Pobrane/spring5webapp/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://A:/Pobrane/spring5webapp/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://A:/Pobrane/spring5webapp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://A:/Pobrane/spring5webapp/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://A:/Pobrane/spring5webapp/src/main/java/com/asterons/springframework/spring5webapp/Spring5webappApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="A:/Pobrane/spring5webapp/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring5webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring5webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring5webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1439" />
+    <option name="height" value="751" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring5webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring5webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Pobrane\spring5webapp\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring5webappApplication">
+    <configuration name="All in spring5webapp (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5webapp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in spring5webapp (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5webapp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in spring5webapp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5webapp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring5webappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring5webapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.asterons.springframework.spring5webapp.Spring5webappApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in spring5webapp (2)" />
+        <item itemvalue="JUnit.All in spring5webapp (1)" />
+        <item itemvalue="JUnit.All in spring5webapp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea4bf7d0-fca0-42fc-984e-c4ea37f59cd2" name="Default Changelist" comment="" />
+      <created>1562500048654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562500048654</updated>
+      <workItem from="1562500052672" duration="3082000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_spring5webapp - 2019.07.07 at 14h 06m 40s.xml">
+      <configuration name="All in spring5webapp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_spring5webapp - 2019.07.07 at 14h 07m 29s.xml">
+      <configuration name="All in spring5webapp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_spring5webapp_(1) - 2019.07.07 at 14h 07m 53s.xml">
+      <configuration name="All in spring5webapp (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_spring5webapp_(2) - 2019.07.07 at 14h 09m 13s.xml">
+      <configuration name="All in spring5webapp (2)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3082000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49840087" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.3022388" side_tool="true" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49946696" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6977612" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32575756" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://A:/Pobrane/spring5webapp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://A:/Pobrane/spring5webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://A:/Pobrane/spring5webapp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://A:/Pobrane/spring5webapp/src/main/java/com/asterons/springframework/spring5webapp/Spring5webappApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
