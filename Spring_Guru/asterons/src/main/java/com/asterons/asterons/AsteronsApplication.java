@@ -1,13 +1,13 @@
-package com.asterons.spring5webapp;
+package com.asterons.asterons;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Spring5webappApplication {
+public class AsteronsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Spring5webappApplication.class, args);
+		SpringApplication.run(AsteronsApplication.class, args);
 	}
 
 }
