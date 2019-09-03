@@ -1,6 +1,7 @@
 package asterons.springframework.didemo;
 
 import asterons.springframework.didemo.controllers.ConstructorInjectedController;
+import asterons.springframework.didemo.controllers.GetterInjectedController;
 import asterons.springframework.didemo.controllers.MyController;
 import asterons.springframework.didemo.controllers.PropertyInjectedController;
 import org.springframework.boot.SpringApplication;
@@ -20,6 +21,7 @@ public class DiDemoApplication {
 
        System.out.print((ctx.getBean(PropertyInjectedController.class).sayHello()));
        System.out.print((ctx.getBean(ConstructorInjectedController.class).sayHello()));
+       System.out.print((ctx.getBean(GetterInjectedController.class).sayHello()));
     }
 
 }
