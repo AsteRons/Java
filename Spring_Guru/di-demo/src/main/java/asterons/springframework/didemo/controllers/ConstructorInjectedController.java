@@ -1,8 +1,7 @@
 package asterons.springframework.didemo.controllers;
 
 
-import asterons.springframework.didemo.services.GreetingService;
-import asterons.springframework.didemo.services.GreetingServiceImpl;
+import asterons.springframework.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
