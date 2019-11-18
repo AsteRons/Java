@@ -1,11 +1,13 @@
 package com.asterons.springframe.sfgpetclinic.services.map;
 
 import com.asterons.springframe.sfgpetclinic.model.Owner;
-import com.asterons.springframe.sfgpetclinic.services.CrudService;
+import com.asterons.springframe.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
-public class OwnerMapService extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+@Service
+public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -18,18 +20,18 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public Owner save(Owner object) {
-        return super.save(object.getId(), object);
-    }
+    public Owner save(Owner object) { return super.save(object.getId(), object); }
 
     @Override
-    public void detele(Owner object) {
-        super.delete(object);
-    }
+    public void detele(Owner object) {super.delete(object); }
 
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
     }
 
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
+    }
 }
