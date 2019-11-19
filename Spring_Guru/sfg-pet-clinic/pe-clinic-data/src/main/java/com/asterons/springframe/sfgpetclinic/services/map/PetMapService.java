@@ -21,7 +21,7 @@ package com.asterons.springframe.sfgpetclinic.services.map;
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
