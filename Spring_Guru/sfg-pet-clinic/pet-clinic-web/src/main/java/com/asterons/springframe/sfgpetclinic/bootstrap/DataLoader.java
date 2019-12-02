@@ -1,11 +1,11 @@
 package com.asterons.springframe.sfgpetclinic.bootstrap;
 
 import com.asterons.springframe.sfgpetclinic.model.Owner;
+import com.asterons.springframe.sfgpetclinic.model.PetType;
 import com.asterons.springframe.sfgpetclinic.model.Vet;
 import com.asterons.springframe.sfgpetclinic.services.OwnerService;
+import com.asterons.springframe.sfgpetclinic.services.PetTypeService;
 import com.asterons.springframe.sfgpetclinic.services.VetService;
-import com.asterons.springframe.sfgpetclinic.services.map.OwnerMapService;
-import com.asterons.springframe.sfgpetclinic.services.map.VetMapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -15,16 +15,28 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
     @Autowired
-    public DataLoader(OwnerService ownerService, VetService vetService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
 
 
     @Override
     public void run(String... args) throws Exception {
+
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType savedDogPetType = petTypeService.save(dog);
+
+        PetType cat = new PetType();
+        dog.setName("Cat");
+        PetType savedCatPetType = petTypeService.save(cat);
+
 
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
