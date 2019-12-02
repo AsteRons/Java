@@ -1,6 +1,7 @@
 package com.asterons.springframe.sfgpetclinic.bootstrap;
 
 import com.asterons.springframe.sfgpetclinic.model.Owner;
+import com.asterons.springframe.sfgpetclinic.model.Pet;
 import com.asterons.springframe.sfgpetclinic.model.PetType;
 import com.asterons.springframe.sfgpetclinic.model.Vet;
 import com.asterons.springframe.sfgpetclinic.services.OwnerService;
@@ -9,6 +10,8 @@ import com.asterons.springframe.sfgpetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.time.LocalDate;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -37,19 +40,36 @@ public class DataLoader implements CommandLineRunner {
         dog.setName("Cat");
         PetType savedCatPetType = petTypeService.save(cat);
 
-
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
+        owner1.setAddress("123 Brickerel");
+        owner1.setCity("Miami");
+        owner1.setTelephone("665567878");
+
+        Pet mikesPet = new Pet();
+        mikesPet.setPetType(savedDogPetType);
+        mikesPet.setOwner(owner1);
+        mikesPet.setBirthDate(LocalDate.now());
+        mikesPet.setName("Rosco");
+        owner1.getPets().add(mikesPet);
 
         ownerService.save(owner1);
-
         Owner owner2 = new Owner();
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
+        owner2.setAddress("12 Srickerel");
+        owner2.setCity("New York");
+        owner2.setTelephone("7685049385");
+
+        Pet fionasCat = new Pet();
+        fionasCat.setName("Just Cat");
+        fionasCat.setOwner(owner2);
+        fionasCat.setBirthDate(LocalDate.now());
+        fionasCat.setPetType(savedCatPetType);
+        owner2.getPets().add(fionasCat);
 
         ownerService.save(owner2);
-
         System.out.println("Loaded Owners ...");
 
         Vet vet1 = new Vet();
