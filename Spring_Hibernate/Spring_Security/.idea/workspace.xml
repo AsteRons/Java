@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec19b0df-6ace-42e6-9a64-75de5f081968" name="Default Changelist" comment="" />
+    <list default="true" id="ec19b0df-6ace-42e6-9a64-75de5f081968" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Spring_Guru/sfg-pet-clinic/pe-clinic-data/src/main/java/com/asterons/springframe/sfgpetclinic/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Guru/sfg-pet-clinic/pe-clinic-data/src/main/java/com/asterons/springframe/sfgpetclinic/model/BaseEntity.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/RemoteSystemsTempFiles/bin/" />
     <ignored path="$PROJECT_DIR$/Servers/bin/" />
@@ -48,7 +50,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="77" />
     <option name="y" value="47" />
     <option name="width" value="1279" />
@@ -77,7 +79,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="/usr/lib/jvm/java-1.8.0-openjdk-amd64" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Analysis_EEG_signals" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,16 +110,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="47" width="1279" height="701" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25382757" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16596417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -128,6 +129,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
