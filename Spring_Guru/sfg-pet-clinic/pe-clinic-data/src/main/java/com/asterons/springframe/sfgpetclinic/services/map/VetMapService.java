@@ -4,10 +4,12 @@ package com.asterons.springframe.sfgpetclinic.services.map;
       import com.asterons.springframe.sfgpetclinic.model.Vet;
       import com.asterons.springframe.sfgpetclinic.services.SpecialtyService;
       import com.asterons.springframe.sfgpetclinic.services.VetService;
+      import org.springframework.context.annotation.Primary;
       import org.springframework.stereotype.Service;
       import java.util.Set;
 
 @Service
+@Primary
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialtyService specialtyService;

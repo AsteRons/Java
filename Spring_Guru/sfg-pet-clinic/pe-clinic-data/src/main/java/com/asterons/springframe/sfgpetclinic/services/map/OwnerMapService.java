@@ -5,11 +5,13 @@ import com.asterons.springframe.sfgpetclinic.model.Pet;
 import com.asterons.springframe.sfgpetclinic.services.OwnerService;
 import com.asterons.springframe.sfgpetclinic.services.PetService;
 import com.asterons.springframe.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Primary
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
