@@ -2,9 +2,13 @@ package com.asterons.springframe.sfgpetclinic.services.map;
 
 import com.asterons.springframe.sfgpetclinic.model.Visit;
 import com.asterons.springframe.sfgpetclinic.services.VisitService;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
+@Primary
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
