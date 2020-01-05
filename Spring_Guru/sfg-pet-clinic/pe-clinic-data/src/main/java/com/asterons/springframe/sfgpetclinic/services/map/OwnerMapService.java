@@ -6,12 +6,13 @@ import com.asterons.springframe.sfgpetclinic.services.OwnerService;
 import com.asterons.springframe.sfgpetclinic.services.PetService;
 import com.asterons.springframe.sfgpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-@Primary
+@Profile({"default", "map"})
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
@@ -61,7 +62,7 @@ public class OwnerMapService extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void detele(Owner object) {super.delete(object); }
+    public void delete(Owner object) {super.delete(object); }
 
     @Override
     public void deleteById(Long id) {

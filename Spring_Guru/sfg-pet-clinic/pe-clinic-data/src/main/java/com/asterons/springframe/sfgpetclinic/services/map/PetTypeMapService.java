@@ -5,12 +5,13 @@ package com.asterons.springframe.sfgpetclinic.services.map;
 import com.asterons.springframe.sfgpetclinic.model.PetType;
 import com.asterons.springframe.sfgpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-@Primary
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
 
     @Override
@@ -29,7 +30,7 @@ public class PetTypeMapService extends AbstractMapService<PetType, Long> impleme
     }
 
     @Override
-    public void detele(PetType object) {
+    public void delete(PetType object) {
 
     }
 

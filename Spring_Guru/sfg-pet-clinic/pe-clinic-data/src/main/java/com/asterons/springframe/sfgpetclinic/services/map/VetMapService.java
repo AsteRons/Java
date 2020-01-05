@@ -5,11 +5,12 @@ package com.asterons.springframe.sfgpetclinic.services.map;
       import com.asterons.springframe.sfgpetclinic.services.SpecialtyService;
       import com.asterons.springframe.sfgpetclinic.services.VetService;
       import org.springframework.context.annotation.Primary;
+      import org.springframework.context.annotation.Profile;
       import org.springframework.stereotype.Service;
       import java.util.Set;
 
 @Service
-@Primary
+@Profile({"default", "map"})
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialtyService specialtyService;
@@ -42,7 +43,7 @@ public class VetMapService extends AbstractMapService<Vet, Long> implements VetS
     }
 
     @Override
-    public void detele(Vet object) {
+    public void delete(Vet object) {
         super.delete(object);
     }
 

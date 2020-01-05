@@ -37,7 +37,7 @@ public class VisitSDJpaService   implements VisitService {
     }
 
     @Override
-    public void detele(Visit object) {
+    public void delete(Visit object) {
         visitRepository.delete(object);
     }
 

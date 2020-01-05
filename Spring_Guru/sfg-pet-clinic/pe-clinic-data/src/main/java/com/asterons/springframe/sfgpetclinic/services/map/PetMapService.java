@@ -4,12 +4,13 @@ package com.asterons.springframe.sfgpetclinic.services.map;
       import com.asterons.springframe.sfgpetclinic.services.CrudService;
       import com.asterons.springframe.sfgpetclinic.services.PetService;
       import org.springframework.context.annotation.Primary;
+      import org.springframework.context.annotation.Profile;
       import org.springframework.stereotype.Service;
       import java.util.Set;
 
       @Service
-      @Primary
-    public class PetMapService extends AbstractMapService<Pet, Long> implements PetService {
+      @Profile({"default", "map"})
+      public class PetMapService extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
@@ -27,7 +28,7 @@ package com.asterons.springframe.sfgpetclinic.services.map;
     }
 
     @Override
-    public void detele(Pet object) {
+    public void delete(Pet object) {
         super.delete(object);
     }
 
