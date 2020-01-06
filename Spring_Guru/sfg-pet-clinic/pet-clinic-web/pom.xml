@@ -23,6 +23,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>com.asterons.springframe</groupId>
             <version>0.0.1-SNAPSHOT</version>
