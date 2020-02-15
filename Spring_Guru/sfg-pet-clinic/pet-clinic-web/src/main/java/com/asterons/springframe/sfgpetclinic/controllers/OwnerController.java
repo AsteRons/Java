@@ -4,10 +4,8 @@ package com.asterons.springframe.sfgpetclinic.controllers;
 import com.asterons.springframe.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @RequestMapping("/owners")
@@ -18,6 +16,12 @@ public class OwnerController {
 
     public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
+    }
+
+    @InitBinder
+    public void setAllowedFileds(WebDataBinder dataBinder){
+
+        dataBinder.setDisallowedFields("id");
     }
 
     @RequestMapping({"", "/", "/index", "/index.html"})
