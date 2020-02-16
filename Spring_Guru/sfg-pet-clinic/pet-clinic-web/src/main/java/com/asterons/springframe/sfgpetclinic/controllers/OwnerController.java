@@ -84,6 +84,7 @@ public class OwnerController {
             Owner savedOwner =  ownerService.save(owner);
             return "redirect:/owners/" + savedOwner.getId();
         }
+
     }
 
     @GetMapping("/{ownerId}/edit")
