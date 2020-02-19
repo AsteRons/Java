@@ -14,7 +14,6 @@ import java.util.Locale;
 public class PetTypeFormatter implements Formatter<PetType> {
 
     private final PetTypeService petTypeService;
-
     public PetTypeFormatter(PetTypeService petTypeService) {
         this.petTypeService = petTypeService;
     }
@@ -33,7 +32,7 @@ public class PetTypeFormatter implements Formatter<PetType> {
                 return type;
             }
         }
-
-        throw new ParseException("type not found: " + text, 0);
+        throw
+                new ParseException("type not found: " + text, 0);
     }
 }
