@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca353a32-f9d7-4b53-915b-63814b81c8a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring5-reactive-mongo-recipe-app-master" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring5-reactive-mongo-recipe-app-master" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring5-reactive-mongo-recipe-app-master" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring5-reactive-mongo-recipe-app-master" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aA3iORnSquDpgv29LSq1uit9mz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring5-reactive-mongo-recipe-app-reactive-repos" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.spring5-reactive-mongo-recipe-app-master [check]">
+    <configuration name="spring5-reactive-mongo-recipe-app-master [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Spring5MongoRecipeAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring5-reactive-mongo-recipe-app-master.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.Spring5MongoRecipeAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.spring5-reactive-mongo-recipe-app-master [check]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca353a32-f9d7-4b53-915b-63814b81c8a9" name="Default Changelist" comment="" />
+      <created>1586164697071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586164697071</updated>
+      <workItem from="1586164714688" duration="1962000" />
+      <workItem from="1586171019811" duration="537000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1586170463424">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1586170463424" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586171435353">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586171435353" />
+    <state width="1253" height="42" key="GridCell.Tab.0.bottom" timestamp="1586171422461">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="42" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586171422461" />
+    <state width="1253" height="42" key="GridCell.Tab.0.center" timestamp="1586171422460">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="42" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586171422460" />
+    <state width="1253" height="42" key="GridCell.Tab.0.left" timestamp="1586171422460">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="42" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586171422460" />
+    <state width="1253" height="42" key="GridCell.Tab.0.right" timestamp="1586171422460">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="42" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586171422460" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586171102989">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1586171102989" />
+  </component>
+</project>
