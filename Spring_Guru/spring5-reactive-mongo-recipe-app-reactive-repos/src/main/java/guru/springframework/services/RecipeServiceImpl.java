@@ -41,7 +41,7 @@ public class RecipeServiceImpl implements RecipeService {
     @Override
     public Mono<RecipeCommand> findCommandById(String id) {
 
-        return recipeReactiveRepository.findById(id)
+       return recipeReactiveRepository.findById(id)
                 .map(recipe -> {
                     RecipeCommand recipeCommand = recipeToRecipeCommand.convert(recipe);
 
@@ -54,7 +54,7 @@ public class RecipeServiceImpl implements RecipeService {
     }
 
     @Override
-    public Mono<RecipeCommand> saveRecipeCommand(RecipeCommand command) {
+    public Mono<RecipeCommand>  saveRecipeCommand(RecipeCommand command) {
 
         return recipeReactiveRepository.save(recipeCommandToRecipe.convert(command))
                 .map(recipeToRecipeCommand::convert);
