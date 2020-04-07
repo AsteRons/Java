@@ -3,7 +3,6 @@ package guru.springframework.services;
 import guru.springframework.commands.UnitOfMeasureCommand;
 import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
 import guru.springframework.domain.UnitOfMeasure;
-import guru.springframework.repositories.UnitOfMeasureRepository;
 import guru.springframework.repositories.reactive.UnitOfMeasureReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
@@ -32,7 +31,6 @@ public class UnitOfMeasureServiceImplTest {
 
         service = new UnitOfMeasureServiceImpl(unitOfMeasureReactiveRepository, unitOfMeasureToUnitOfMeasureCommand);
     }
-
 
     @Test
     public void listAllUoms() throws Exception {

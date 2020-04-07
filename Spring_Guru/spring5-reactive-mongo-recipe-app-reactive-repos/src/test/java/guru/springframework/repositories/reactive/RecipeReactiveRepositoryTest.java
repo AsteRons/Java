@@ -1,6 +1,5 @@
 package guru.springframework.repositories.reactive;
 
-
 import guru.springframework.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
