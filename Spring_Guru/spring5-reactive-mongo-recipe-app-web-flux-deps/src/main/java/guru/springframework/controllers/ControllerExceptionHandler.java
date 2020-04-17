@@ -22,7 +22,7 @@ public class ControllerExceptionHandler {
 
         log.error("Handling Number Format Exception");
         log.error(exception.getMessage());
-        
+
         model.addAttribute("exception", exception);
 
         return "44error";
