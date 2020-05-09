@@ -128,7 +128,7 @@ public class CustomerControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.firstname", equalTo("Fred")))
                 .andExpect(jsonPath("$.lastname", equalTo("Flintstone")))
-                .andExpect(jsonPath("$.", equalTo("/api/v1/customers/1")));
+                .andExpect(jsonPath("$.customerUrl", equalTo("/api/v1/customers/1")));
     }
 
     @Test
